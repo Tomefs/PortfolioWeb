@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(224, 203, 203, 1);
+    padding: 100px;
+}
+
+footer p{
+    font-size: 2vw;
+    margin: 10px;
+    text-align: center;
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.media img{
+    width: 2.5%;
+    height: auto;
+    margin: 10px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foto img{
+    width: 15%;
+    height: auto;
+    border-radius: 10vw;
+    border: 0.3vw solid rgba(42, 22, 14, 1);
+}
+
+.foto img:hover{
+    background-color: rgba(33, 60, 101, 1);
+}

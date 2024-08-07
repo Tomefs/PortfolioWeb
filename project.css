@@ -1,0 +1,28 @@
+.videoDesigns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.videoDesigns img{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+}
+
+.videoDesigns video{
+    width: 100%;
+    padding: 40px;
+}
+
+.printDesigns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.printDesigns img{
+    width: 100%;
+    padding: 40px;
+}

@@ -1,0 +1,51 @@
+#menu img{
+    position: absolute;
+    height: auto;
+    padding: 60px;
+}
+
+#imagens{
+    padding-top: 6%;
+    padding-left: 40px;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-left: 52%;
+    padding-top: 8%;
+}
+
+#corpo h3{
+    font-size: 2vw;
+    font-style: italic;
+    color: rgba(33, 60, 101, 1);
+}
+
+#corpo p{
+    font-size: 1.5vw;
+    padding-top: 20px;
+    color: rgba(42, 22, 14, 1);
+}
+
+
+#mapache img{
+    width: 45%;
+    padding-top: 12%;
+    filter: drop-shadow(-2px -2px 5px rgba(42, 22, 14, 1));
+}
+
+#nazgul img{
+    width: 30%;
+    padding-left: 2%;
+    padding-top: 8%;
+    filter: drop-shadow(5px 5px 5px rgba(42, 22, 14, 1));
+}
+
+#cavaleiro img{
+    width: 45%;
+    padding-left: 15%;
+    padding-top: 0;
+    filter: drop-shadow(-5px 5px 5px rgba(42, 22, 14, 1));
+}

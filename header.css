@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.2s;
+}
+
+body{
+    background-color: rgba(224, 203, 203, 1);
+}
+
+.textura video{
+    position: absolute;
+    width: 100%;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(42, 22, 14, 1);
+}
+
+header #navBar{
+    display: grid;
+    position: fixed;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 3;
+    padding: 15px;
+    background-color: rgba(224, 203, 203, 1);
+}
+
+#navBar a h1{
+    font-size: 2vw;
+    font-family: montserrat;
+}
+
+#navBar h3{
+    font-size: 1.5vw;
+    font-style: italic;
+    align-content: center;
+    color: rgba(42, 22, 14, 1);
+}
+
+#navBar a:hover{
+    color: rgba(33, 60, 101, 1);
+}
